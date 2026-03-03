@@ -1,0 +1,100 @@
+/* Simple styles for forms and validation */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.error {
+    color: red;
+    background: #ffeeee;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ffcccc;
+}
+
+.success {
+    color: green;
+    background: #eeffee;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccffcc;
+}
+
+/* FIXED LOGOUT BUTTON */
+ a .logout-btn {
+    display: inline-block;        /* Makes it behave like a button */
+    margin-left: 70px;
+    margin-top: 20px;
+    background: #dc3545;
+    color: white;                 /* Text color */
+    padding: 10px 20px;           /* Space inside button */
+    text-decoration: none;        /* Removes underline */
+    border-radius: 15px;
+    border: none;                 /* Removes any default border */
+    cursor: pointer;              /* Hand cursor on hover */
+    font-family: Arial, sans-serif; /* Consistent font */
+    font-size: 16px;              /* Good button size */
+}
+
+.logout-btn:hover {
+    background: #c82333;          /* Darker red on hover */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
